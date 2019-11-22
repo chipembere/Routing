@@ -1,8 +1,8 @@
 {
   "name": "grp",
   "version": "1.0.0",
-  "description": "Practice Post Redirect and Get expressjs methods.",
-  "main": "index.js",
+  "description": "Practice Post Redirect and Get ExpressJs methods.",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
