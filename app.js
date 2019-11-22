@@ -2,7 +2,7 @@ const express = require('express'); //$ npm install express -save
 const app = express();
 const bodyParser = require('body-parser')
 // const urlencodedParser = bodyParser.urlencoded({ extended: true })
-const port = 5000;
+const port = process.env.PORT || 5000;
 app.use(express.static('public'));
 app.use(express.static('views'));
 
