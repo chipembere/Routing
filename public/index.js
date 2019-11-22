@@ -1,9 +1,10 @@
 $(document).ready(() => {
-    $("form").click(() => {
-        let name = $("input[name=username]");
-        let password = $("input[name=password]");
-        if (name === undefined || password === undefined) {
+    console.log("Tiripo");
+    $("#log").submit(() => {
+        let name = $("input[name=username]").val();
+        let password = $("input[name=password]").val();
+        if (name.length === 0 || password.length === 0) {
             alert("Insert username and password");
-        }
+        };
     });
 });

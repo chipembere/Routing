@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>POST REDIRECT GET</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
-    <link href="index.js">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     <section>
         <header>Login</header>
         <!-- Action specifies where to send the data when form is submitted. -->
-        <form method="post" action="/show">
+        <form id="log" method="post" action="/show">
             <input type="text" name="username" /><br />
             <input type="password" name="password" /><br />
             <input id="button" type="submit" />
