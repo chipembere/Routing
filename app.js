@@ -21,7 +21,6 @@ app.post("/show", function (req, res) {
     // Add name to variable
     zita = req.body.username
     console.log(zita);
-    // res.send(req.body.username)
     res.render("second.html");
 });
 
