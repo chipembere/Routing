@@ -1,0 +1,16 @@
+body {
+  background-color: darkgoldenrod;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  margin: 2px;
+}
+
+section {
+  margin: 2px;
+}
+
+footer {
+  border: 2px darkgray;
+  height: 60px;
+}

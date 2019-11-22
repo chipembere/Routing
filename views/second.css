@@ -1,0 +1,40 @@
+body {
+  margin: 2px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none; /* removes the bullets. */
+  margin: 4px;
+  padding: 0;
+}
+
+header {
+  border-style: outset;
+  height: 50px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  height: 600px;
+  padding: 4px;
+  background-color: darksalmon;
+}
+
+#square {
+  background-color: ivory;
+  font-size: 50px;
+  font-family: fantasy;
+  border-style: outset;
+}
+
+footer {
+  border-style: inset;
+  height: 20px;
+}

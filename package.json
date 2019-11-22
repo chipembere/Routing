@@ -1,0 +1,28 @@
+{
+  "name": "grp",
+  "version": "1.0.0",
+  "description": "Practice Post Redirect and Get expressjs methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chipembere/Lessons.git"
+  },
+  "keywords": [
+    "Get",
+    "Redirect",
+    "Post"
+  ],
+  "author": "Brian Musonza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chipembere/Lessons/issues"
+  },
+  "homepage": "https://github.com/chipembere/Lessons#readme",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1"
+  }
+}
