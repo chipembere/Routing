@@ -1,8 +1,8 @@
 $(document).ready(() => {
+    // Access data sent on "/zi" route .
     axios.get('/zi')
         .then(response => {
             let name = response.data;
-            console.log("Zita" + name);
             $("#square").html(`Hi ${name}...`);
         });
 });
